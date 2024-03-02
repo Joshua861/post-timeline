@@ -18,7 +18,7 @@
 	}
 </script>
 
-<div class="prose mx-auto mt-10">
+<div class="prose mx-auto mt-6 px-5">
 	<form method="POST" class="">
 		<input type="text" name="username" placeholder="Username" />
 		<br />
