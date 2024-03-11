@@ -34,7 +34,7 @@
 			<article>
 				<div class="flex justify-end">
 					<button on:click={() => deletePost(post.id)} class="align-right absolute border-none p-0 rounded-full"
-						><Tras2 /></button
+						><Trash2 /></button
 					>
 				</div>
 				<p class="font-bold">
