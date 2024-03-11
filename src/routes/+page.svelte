@@ -33,7 +33,7 @@
 		{#each data.posts as post}
 			<article>
 				<div class="flex justify-end">
-					<button on:click={() => deletePost(post.id)} class="align-right absolute border-none p-0 rounded-full"
+					<button on:click={() => deletePost(post.id)} class="align-right absolute border-none p-1 rounded"
 						><Trash2 /></button
 					>
 				</div>
