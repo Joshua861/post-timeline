@@ -1,7 +1,7 @@
 <script>
 	import Time from 'svelte-time/src/Time.svelte';
 	export let data;
-	import { Flag } from 'lucide-svelte';
+	import { Trash2 } from 'lucide-svelte';
 
 	async function deletePost(postID) {
 		const response = await fetch('/delete', {
@@ -33,8 +33,8 @@
 		{#each data.posts as post}
 			<article>
 				<div class="flex justify-end">
-					<button on:click={() => deletePost(post.id)} class="align-right absolute border-none"
-						><Flag /></button
+					<button on:click={() => deletePost(post.id)} class="align-right absolute border-none p-0 rounded-full"
+						><Tras2 /></button
 					>
 				</div>
 				<p class="font-bold">
